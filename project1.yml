@@ -1,6 +1,6 @@
 ---
 - name: Copy web.html
-  hosts: target
+  hosts: all 
   vars_files: vars/vars.yml
   
   tasks:
